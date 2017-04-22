@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 5.0.1/15068
-// Filename: iddon_notooltip.ggsk
-// Generated Пт апр 21 18:51:47 2017
+// Filename: MaketRF.ggsk
+// Generated Сб апр 22 11:56:21 2017
 
 function pano2vrSkin(player,base) {
 	var ggSkinVars = [];
@@ -971,7 +971,7 @@ function pano2vrSkin(player,base) {
 		hs+='height : 109px;';
 		hs+='left : 7px;';
 		hs+='position : absolute;';
-		hs+='top : 17px;';
+		hs+='top : 19px;';
 		hs+='visibility : inherit;';
 		hs+='width : 225px;';
 		this._text_1.setAttribute('style',hs);
@@ -1016,21 +1016,21 @@ function pano2vrSkin(player,base) {
 		me.player.checkLoaded.push(this._image_1__img);
 		this._image_1.appendChild(this._image_1__img);
 		this._image_1.ggId="Image 1";
-		this._image_1.ggLeft=-497;
-		this._image_1.ggTop=-172;
+		this._image_1.ggLeft=-347;
+		this._image_1.ggTop=-104;
 		this._image_1.ggParameter={ rx:0,ry:0,a:0,sx:0.5,sy:0.5 };
 		this._image_1.ggVisible=true;
 		this._image_1.className='ggskin ggskin_image ';
 		this._image_1.ggType='image';
 		hs ='';
-		hs+='height : 170px;';
-		hs+='left : -497px;';
+		hs+='height : 103px;';
+		hs+='left : -347px;';
 		hs+='position : absolute;';
-		hs+='top : -172px;';
+		hs+='top : -104px;';
 		hs+='visibility : inherit;';
-		hs+='width : 580px;';
+		hs+='width : 346px;';
 		this._image_1.setAttribute('style',hs);
-		this._image_1.style[domTransform + 'Origin']='50% 50%';
+		this._image_1.style[domTransform + 'Origin']='100% 100%';
 		this._image_1.style[domTransform]=parameterToTransform(this._image_1.ggParameter);
 		me._image_1.ggIsActive=function() {
 			return false;
